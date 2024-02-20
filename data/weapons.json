@@ -1,0 +1,115 @@
+{
+    "id": "weapons",
+    "title": "Weapons",
+    "results": [
+        {
+            "full_name": "Shelling S49 Pistol",
+            "name": "Pistol",
+            "type": "main",
+            "url": "/api/weapons/pistol"
+        },
+        {
+            "full_name": "Shelling Nano Burst Pistol",
+            "name": "Burst Pistol",
+            "type": "main",
+            "url": "/api/weapons/burst_pistol"
+        },
+        {
+            "full_name": "Bataldo 3RB HEL Revolver",
+            "name": "HEL Revolver",
+            "type": "main",
+            "url": "/api/weapons/hel_revolver"
+        },
+        {
+            "full_name": "Raptus Treffen 2 Machine Pistol",
+            "name": "Machine Pistol",
+            "type": "main",
+            "url": "/api/weapons/machine_pistol"
+        },
+        {
+            "full_name": "Raptus Steigro HEL Autopistol",
+            "name": "HEL Autopistol",
+            "type": "main",
+            "url": "/api/weapons/hel_autopistol"
+        },
+        {
+            "full_name": "Accrat Golok DA Bullpup Rifle",
+            "name": "Bullpup Rifle",
+            "type": "main",
+            "url": "/api/weapons/bullpup_rifle"
+        },
+        {
+            "full_name": "Van Auken LTC5 SMG",
+            "name": "SMG",
+            "type": "main",
+            "url": "/api/weapons/smg"
+        },
+        {
+            "full_name": "Accrat STB PDW",
+            "name": "PDW",
+            "type": "main",
+            "url": "/api/weapons/pdw"
+        },
+        {
+            "full_name": "Accrat ND6 Heavy SMG",
+            "name": "Heavy SMG",
+            "type": "main",
+            "url": "/api/weapons/heavy_smg"
+        },
+        {
+            "full_name": "Van Auken CAB F4 Carbine",
+            "name": "Carbine",
+            "type": "main",
+            "url": "/api/weapons/carbine"
+        },
+        {
+            "full_name": "TR22 Hanaway DMR",
+            "name": "DMR",
+            "type": "main",
+            "url": "/api/weapons/dmr"
+        },
+        {
+            "full_name": "Hanaway PSB Double Tap Rifle",
+            "name": "Double Tap Rifle",
+            "type": "main",
+            "url": "/api/weapons/double_tap_rifle"
+        },
+        {
+            "full_name": "Malatack LX Assault Rifle",
+            "name": "Assault Rifle",
+            "type": "main",
+            "url": "/api/weapons/assault_rifle"
+        },
+        {
+            "full_name": "MAlatack CH 4 Burst Rifle",
+            "name": "Burst Rifle",
+            "type": "main",
+            "url": "/api/weapons/burst_rifle"
+        },
+        {
+            "full_name": "Drekker Pres MOD 556 Rifle",
+            "name": "Rifle",
+            "type": "main",
+            "url": "/api/weapons/rifle"
+        },
+        {
+            "full_name": "Buckland SBS III Sawed-off Shotgun",
+            "name": "Sawed-off Shotgun",
+            "type": "main",
+            "url": "/api/weapons/sawed_off_shotgun"
+        },
+        {
+            "full_name": "Bataldo J 300 HEL Shotgun",
+            "name": "HEL Shotgun",
+            "type": "main",
+            "url": "/api/weapons/hel_shotgun"
+        },
+        {
+            "full_name": "Bataldo Custom K330 Slug Shotgun",
+            "name": "Slug Shotgun",
+            "type": "main",
+            "url": "/api/weapons/slug_shotgun"
+        }
+    ],
+    "url": "/api/weapons"
+}
