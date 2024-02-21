@@ -4,6 +4,8 @@
     "description": "",
     "results": [
         "weapons",
-        "strikers"
+        "strikers",
+        "main",
+        "special"
     ]
 }

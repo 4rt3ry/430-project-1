@@ -1,0 +1,35 @@
+{
+  "name": "430-project-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.ts",
+  "scripts": {
+    "pre-test": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\"",
+    "start": "node ./src/server.js",
+    "nodemon": "nodemon -e ts,js,css,html --watch ./src",
+    "webpack": "webpack watch",
+    "heroku-postbuild": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4rt3ry/430-project-1.git"
+  },
+  "author": "Arthur Powers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4rt3ry/430-project/issues"
+  },
+  "homepage": "https://github.com/4rt3ry/430-project#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^3.0.3",
+    "webpack": "^5.90.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
