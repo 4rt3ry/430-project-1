@@ -4,10 +4,13 @@
   "description": "",
   "main": "./src/server.ts",
   "scripts": {
-    "pre-test": "eslint ./src --fix",
+    "pre-test": "eslint ./src/* --fix",
     "test": "echo \"Tests Complete\"",
-    "start": "node ./src/server.js",
+    "start": "node ./src/server.bundle.js",
+    "build": "npm run bundle-front & npm run bundle-back",
     "nodemon": "nodemon -e ts,js,css,html --watch ./src",
+    "bundle-front": "webpack --config ./webpack-front.config.js",
+    "bundle-back": "webpack --config ./webpack-back.config.js",
     "webpack": "webpack watch",
     "heroku-postbuild": "webpack --mode production"
   },
@@ -22,14 +25,20 @@
   },
   "homepage": "https://github.com/4rt3ry/430-project#readme",
   "devDependencies": {
-    "eslint": "^8.56.0",
+    "@types/node": "^20.11.20",
+    "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.29.1",
     "nodemon": "^3.0.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^7.0.2",
     "webpack": "^5.90.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^7.0.2",
     "axios": "^1.6.7"
   }
 }
