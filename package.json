@@ -11,8 +11,7 @@
     "nodemon": "nodemon -e ts,js,css,html --watch ./src",
     "bundle-front": "webpack --config ./webpack-front.config.js",
     "bundle-back": "webpack --config ./webpack-back.config.js",
-    "webpack": "webpack watch",
-    "heroku-postbuild": "webpack --mode production"
+    "webpack": "webpack watch"
   },
   "repository": {
     "type": "git",
