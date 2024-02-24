@@ -1,0 +1,13 @@
+{
+    "id": "weapons",
+    "title": "Weapons",
+    "description": "",
+    "results": [
+        {
+            "name": "tmp",
+            "aliases": "tmp"
+        }
+        
+    ],
+    "url": "/api/strikers"
+}
