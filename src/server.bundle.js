@@ -51,8 +51,8 @@ var readFile = function (filepath) { return fs_1.default.readFileSync("".concat(
 var gtfoData = {
     '/api/weapons': readFile('../data/weapons.json'),
     '/api/weapon_stats': readFile('../data/weapon_stats.json'),
-    '/api/categories': readFile('../data/weapon_stats.json'),
-    '/api/strikers': readFile('../data/weapon_stats.json'),
+    '/api/categories': readFile('../data/categories.json'),
+    '/api/strikers': readFile('../data/strikers.json'),
 };
 /**
  * Builds a message response in json or xml format (decided by the accept header)
