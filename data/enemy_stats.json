@@ -1,0 +1,222 @@
+{
+    "id": "enemies",
+    "title": "Enemies",
+    "description": "",
+    "results": [
+        {
+            "name": "striker",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 20,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "damage": {
+                "toungue": 12
+            }
+        },
+        {
+            "name": "shooter",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 30,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 5,
+            "damage": {
+                "ranged": 5
+            }
+        },
+        {
+            "name": "giant",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 120,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 1.5,
+            "damage": {
+                "toungue": 24,
+                "punch": 40
+            }
+        },
+        {
+            "name": "giant shooter",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 150,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 2,
+            "damage": {
+                "ranged": 6
+            }
+        },
+        {
+            "name": "hybrid",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 150,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 2,
+            "damage": {
+                "punch": 12,
+                "ranged": 3.571
+            }
+        },
+        {
+            "name": "scout",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 42,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "damage": {
+                "ranged": 4
+            }
+        },
+        {
+            "name": "charger",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 30,
+            "stagger_health": 6.5,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "damage": {
+                "toungue": 18,
+                "punch": 4
+            }
+        },
+        {
+            "name": "giant charger",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 120,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "damage": {
+                "toungue": 24,
+                "punch": 40
+            }
+        },
+        {
+            "name": "charger scout",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 60,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "damage": {
+                "toungue": 24,
+                "punch": 12
+            }
+        },
+        {
+            "name": "shadow",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 20,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "damage": {
+                "toungue": 12
+            }
+        },
+        {
+            "name": "giant shadow",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 120,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 1.5,
+            "damage": {
+                "toungue": 24,
+                "punch": 40
+            }
+        },
+        {
+            "name": "shadow scout",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 42,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "damage": {
+                "ranged": 4
+            }
+        },
+        {
+            "name": "flyer",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 16.2,
+            "stagger_health": 4,
+            "back_multiplier": 0,
+            "head_multiplier": 3,
+            "damage": {
+                "ranged": 4
+            }
+        },
+        {
+            "name": "baby striker",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 5,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 2,
+            "damage": {
+                "toungue": 4
+            }
+        },
+        {
+            "name": "giant flyer",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 150,
+            "stagger_health": 150,
+            "back_multiplier": 3,
+            "head_multiplier": 3,
+            "damage": {
+                "ranged": 4
+            }
+        },
+        {
+            "name": "snatcher",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 225,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "damage": {
+                "punch": 17
+            }
+        }
+    ],
+    "url": "/api/enemies"
+}

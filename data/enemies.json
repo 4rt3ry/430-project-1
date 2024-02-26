@@ -1,0 +1,154 @@
+{
+    "id": "enemies",
+    "title": "Enemies",
+    "description": "",
+    "results": [
+        {
+            "name": "striker",
+            "aliases": ["tmp"],
+            "health": 20,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "toungue_damage": 12,
+            "punch_damage": 0,
+            "ranged_damage": 0
+        },
+        {
+            "name": "shooter",
+            "aliases": ["tmp"],
+            "health": 30,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 5,
+            "toungue_damage": 0,
+            "punch_damage": 0,
+            "ranged_damage": 5
+        },
+        {
+            "name": "giant",
+            "aliases": ["tmp"],
+            "health": 120,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 1.5,
+            "toungue_damage": 24,
+            "punch_damage": 40,
+            "ranged_damage": 0
+        },
+        {
+            "name": "giant shooter",
+            "aliases": ["tmp"],
+            "health": 150,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 2,
+            "toungue_damage": 0,
+            "punch_damage": 0,
+            "ranged_damage": 6
+            
+        },
+        {
+            "name": "hybrid",
+            "aliases": ["tmp"],
+            "health": 150,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 2,
+            "toungue_damage": 0,
+            "punch_damage": 12,
+            "ranged_damage": 3.571
+        },
+        {
+            "name": "scout",
+            "aliases": ["tmp"],
+            "health": 42,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "toungue_damage": 0,
+            "punch_damage": 0,
+            "ranged_damage": 4
+            
+        },
+        {
+            "name": "charger",
+            "aliases": ["tmp"],
+            "health": 30,
+            "stagger_health": 6.5,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "toungue_damage": 18,
+            "punch_damage": 4,
+            "ranged_damage": 0
+        },
+        {
+            "name": "giant charger",
+            "aliases": ["tmp"],
+            "health": 120,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "toungue_damage": 24,
+            "punch_damage": 40,
+            "ranged_damage": 0
+        },
+        {
+            "name": "charger scout",
+            "aliases": ["tmp"],
+            "health": 60,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "toungue_damage": 24,
+            "punch_damage": 12,
+            "ranged_damage": 0
+        },
+        {
+            "name": "shadow",
+            "aliases": ["tmp"],
+            "health": 20,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "toungue_damage": 12,
+            "punch_damage": 0,
+            "ranged_damage": 0
+        },
+        {
+            "name": "giant shadow",
+            "aliases": ["tmp"],
+            "health": 120,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 1.5,
+            "toungue_damage": 24,
+            "punch_damage": 40,
+            "ranged_damage": 0
+        },
+        {
+            "name": "shadow scout",
+            "aliases": ["tmp"],
+            "health": 42,
+            "stagger_health": 5,
+            "back_multiplier": 2,
+            "head_multiplier": 3,
+            "toungue_damage": 0,
+            "punch_damage": 0,
+            "ranged_damage": 4
+        },
+        {
+            "name": "baby striker",
+            "aliases": ["tmp"],
+            "health": 120,
+            "stagger_health": 40,
+            "back_multiplier": 2,
+            "head_multiplier": 0,
+            "toungue_damage": 24,
+            "punch_damage": 40,
+            "ranged_damage": 0
+        }
+        
+    ],
+    "url": "/api/enemies"
+}
