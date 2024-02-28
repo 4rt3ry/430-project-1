@@ -10,10 +10,12 @@
             ],
             "health": 20,
             "stagger_health": 5,
-            "back_multiplier": 2,
-            "head_multiplier": 3,
             "damage": {
                 "toungue": 12
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 3
             }
         },
         {
@@ -23,10 +25,12 @@
             ],
             "health": 30,
             "stagger_health": 5,
-            "back_multiplier": 2,
-            "head_multiplier": 5,
             "damage": {
                 "ranged": 5
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 5
             }
         },
         {
@@ -36,11 +40,13 @@
             ],
             "health": 120,
             "stagger_health": 40,
-            "back_multiplier": 2,
-            "head_multiplier": 1.5,
             "damage": {
                 "toungue": 24,
                 "punch": 40
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 1.5
             }
         },
         {
@@ -50,10 +56,12 @@
             ],
             "health": 150,
             "stagger_health": 40,
-            "back_multiplier": 2,
-            "head_multiplier": 2,
             "damage": {
                 "ranged": 6
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 2
             }
         },
         {
@@ -63,11 +71,13 @@
             ],
             "health": 150,
             "stagger_health": 40,
-            "back_multiplier": 2,
-            "head_multiplier": 2,
             "damage": {
                 "punch": 12,
                 "ranged": 3.571
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 2
             }
         },
         {
@@ -77,10 +87,12 @@
             ],
             "health": 42,
             "stagger_health": 5,
-            "back_multiplier": 2,
-            "head_multiplier": 3,
             "damage": {
                 "ranged": 4
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 3
             }
         },
         {
@@ -90,11 +102,13 @@
             ],
             "health": 30,
             "stagger_health": 6.5,
-            "back_multiplier": 2,
-            "head_multiplier": 0,
             "damage": {
                 "toungue": 18,
                 "punch": 4
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 0
             }
         },
         {
@@ -104,11 +118,13 @@
             ],
             "health": 120,
             "stagger_health": 40,
-            "back_multiplier": 2,
-            "head_multiplier": 0,
             "damage": {
                 "toungue": 24,
                 "punch": 40
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 0
             }
         },
         {
@@ -118,11 +134,13 @@
             ],
             "health": 60,
             "stagger_health": 5,
-            "back_multiplier": 2,
-            "head_multiplier": 0,
             "damage": {
                 "toungue": 24,
                 "punch": 12
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 0
             }
         },
         {
@@ -132,10 +150,12 @@
             ],
             "health": 20,
             "stagger_health": 5,
-            "back_multiplier": 2,
-            "head_multiplier": 3,
             "damage": {
                 "toungue": 12
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 3
             }
         },
         {
@@ -145,11 +165,13 @@
             ],
             "health": 120,
             "stagger_health": 40,
-            "back_multiplier": 2,
-            "head_multiplier": 1.5,
             "damage": {
                 "toungue": 24,
                 "punch": 40
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 1.5
             }
         },
         {
@@ -159,10 +181,12 @@
             ],
             "health": 42,
             "stagger_health": 5,
-            "back_multiplier": 2,
-            "head_multiplier": 3,
             "damage": {
                 "ranged": 4
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 3
             }
         },
         {
@@ -172,10 +196,12 @@
             ],
             "health": 16.2,
             "stagger_health": 4,
-            "back_multiplier": 0,
-            "head_multiplier": 3,
             "damage": {
                 "ranged": 4
+            },
+            "multiplier": {
+                "back": 0,
+                "head": 3
             }
         },
         {
@@ -185,10 +211,12 @@
             ],
             "health": 5,
             "stagger_health": 5,
-            "back_multiplier": 2,
-            "head_multiplier": 2,
             "damage": {
                 "toungue": 4
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 2
             }
         },
         {
@@ -198,10 +226,12 @@
             ],
             "health": 150,
             "stagger_health": 150,
-            "back_multiplier": 3,
-            "head_multiplier": 3,
             "damage": {
                 "ranged": 4
+            },
+            "multiplier": {
+                "back": 3,
+                "head": 3
             }
         },
         {
@@ -211,12 +241,68 @@
             ],
             "health": 225,
             "stagger_health": 40,
-            "back_multiplier": 2,
-            "head_multiplier": 0,
             "damage": {
                 "punch": 17
+            },
+            "multiplier": {
+                "back": 2,
+                "head": 0
             }
+        },
+        {
+            "name": "mother",
+            "aliases": [
+                "tmp"
+            ],
+            "health": 1000,
+            "stagger_health": 1000,
+            "damage": {},
+            "multiplier": {
+                "tumor": 5
+            }
+        },
+        {
+            "name": "giant mother",
+            "aliases": [
+                "grandmother",
+                "big mama"
+            ],
+            "health": 2500,
+            "stagger_health": 2500,
+            "damage": {},
+            "multiplier": {
+                "tumor": 5
+            }
+        },
+        {
+            "name": "titan",
+            "aliases": [
+                "father",
+                "hydra"
+            ],
+            "health": 1000,
+            "stagger_health": 400,
+            "damage": {
+                "punch": 32,
+                "toungue": 14
+            },
+            "multiplier": {
+                "tumor": 3
+            }
+        },
+        {
+            "name": "immortal",
+            "aliases": [
+                "tmp"
+            ],
+            "health": "infinity",
+            "stagger_health": 400,
+            "damage": {
+                "punch": 32,
+                "toungue": 14
+            },
+            "multiplier": {}
         }
     ],
-    "url": "/api/enemies"
+    "url": "/api/enemy_stats"
 }

@@ -7,5 +7,6 @@
         "strikers",
         "main",
         "special"
-    ]
+    ],
+    "url": "/api/categories"
 }

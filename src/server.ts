@@ -11,7 +11,8 @@ const requestHandler: ResponseHandlers = {
         '/api/weapons': getGTFOData,
         '/api/weapon_stats': getGTFOData,
         '/api/categories': getGTFOData,
-        '/api/strikers': getGTFOData,
+        '/api/enemies': getGTFOData,
+        '/api/enemy_stats': getGTFOData,
         'default': get404 // 404
     },
     'POST': {
@@ -21,7 +22,8 @@ const requestHandler: ResponseHandlers = {
         '/api/weapons': headGTFOData,
         '/api/weapon_stats': headGTFOData,
         '/api/categories': headGTFOData,
-        '/api/strikers': headGTFOData,
+        '/api/enemies': headGTFOData,
+        '/api/enemy_stats': headGTFOData,
         'default': head404 // 404 header
     },
     default: { default: get404 } // 404
@@ -30,6 +32,7 @@ const requestHandler: ResponseHandlers = {
 const onRequest = (request: IncomingMessage, response: ServerResponse) => {
     const url = new URL(request.url || "/404", `http://${request.headers.host}`);
     const methodHandler = requestHandler[request.method || "GET"];
+    console.log(url.pathname);
     const handler = methodHandler ? methodHandler[url.pathname] : undefined;
 
     const params: ResponseHanderParams = {

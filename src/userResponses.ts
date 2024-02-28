@@ -12,7 +12,7 @@ const createComment = (
     user = 'Anonymous', 
     body = "", 
     postedDate = Date.now()
-    ) => {
+) => {
     return {
         user,
         body,
@@ -30,7 +30,7 @@ const addComment = (request: IncomingMessage, response: ServerResponse) => {
         data += chunk;
     });
     request.on('end', () => {
-        let comment = createComment()
+        const comment = createComment()
         comments.push(comment);
 
         response.writeHead(201, {'Content-Type': 'application/json'});

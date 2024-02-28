@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/server.ts",
   "scripts": {
-    "pre-test": "eslint ./src/* --fix",
+    "pretest": "eslint ./src/* --fix",
     "test": "echo \"Tests Complete\"",
     "start": "node ./src/server.bundle.js",
     "build": "npm run bundle-front & npm run bundle-back",

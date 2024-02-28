@@ -52,7 +52,8 @@ var gtfoData = {
     '/api/weapons': readFile('../data/weapons.json'),
     '/api/weapon_stats': readFile('../data/weapon_stats.json'),
     '/api/categories': readFile('../data/categories.json'),
-    '/api/strikers': readFile('../data/strikers.json'),
+    '/api/enemies': readFile('../data/enemies.json'),
+    '/api/enemy_stats': readFile('../data/enemy_stats.json'),
 };
 /**
  * Builds a message response in json or xml format (decided by the accept header)
@@ -146,7 +147,8 @@ var requestHandler = {
         '/api/weapons': dataResponses_1.getGTFOData,
         '/api/weapon_stats': dataResponses_1.getGTFOData,
         '/api/categories': dataResponses_1.getGTFOData,
-        '/api/strikers': dataResponses_1.getGTFOData,
+        '/api/enemies': dataResponses_1.getGTFOData,
+        '/api/enemy_stats': dataResponses_1.getGTFOData,
         'default': dataResponses_1.get404 // 404
     },
     'POST': {
@@ -156,7 +158,8 @@ var requestHandler = {
         '/api/weapons': dataResponses_1.headGTFOData,
         '/api/weapon_stats': dataResponses_1.headGTFOData,
         '/api/categories': dataResponses_1.headGTFOData,
-        '/api/strikers': dataResponses_1.headGTFOData,
+        '/api/enemies': dataResponses_1.headGTFOData,
+        '/api/enemy_stats': dataResponses_1.headGTFOData,
         'default': dataResponses_1.head404 // 404 header
     },
     default: { default: dataResponses_1.get404 } // 404
@@ -165,6 +168,7 @@ var onRequest = function (request, response) {
     var _a, _b;
     var url = new URL(request.url || "/404", "http://".concat(request.headers.host));
     var methodHandler = requestHandler[request.method || "GET"];
+    console.log(url.pathname);
     var handler = methodHandler ? methodHandler[url.pathname] : undefined;
     var params = {
         pathname: url.pathname,

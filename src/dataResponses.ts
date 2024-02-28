@@ -7,7 +7,8 @@ const gtfoData: { [key: string]: Buffer | string } = {
     '/api/weapons': readFile('../data/weapons.json'),
     '/api/weapon_stats': readFile('../data/weapon_stats.json'),
     '/api/categories': readFile('../data/categories.json'),
-    '/api/strikers': readFile('../data/strikers.json'),
+    '/api/enemies': readFile('../data/enemies.json'),
+    '/api/enemy_stats': readFile('../data/enemy_stats.json'),
 }
 
 /**
