@@ -202,7 +202,7 @@
         "Hel Gun": {
             "full_name": "Omneco EXP1 HEL Gun",
             "name": "Hel Gun",
-            "image": "/media/special_weapons/HEL_Rifle.png",
+            "image": "/media/special_weapons/HEL_Gun.png",
             "type": "special",
             "url": ""
         },
@@ -230,7 +230,7 @@
         "HEL Rifle": {
             "full_name": "Omneco LRG HEL Rifle",
             "name": "HEL Rifle",
-            "image": "/media/special_weapons/Hel_Rifle.png",
+            "image": "/media/special_weapons/HEL_Rifle.png",
             "type": "special",
             "url": ""
         }
