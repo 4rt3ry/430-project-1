@@ -4,11 +4,10 @@
   "description": "",
   "main": "./src/server.ts",
   "scripts": {
-    "pretest": "eslint ./src/* --fix",
+    "pretest": "eslint ./src/* ./client/* --fix",
     "test": "echo \"Tests Complete\"",
     "start": "node ./src/server.bundle.js",
     "build": "npm run bundle-front & npm run bundle-back",
-    "nodemon": "nodemon -e ts,js,css,html --watch ./src",
     "bundle-front": "webpack --config ./webpack-front.config.js",
     "bundle-back": "webpack --config ./webpack-back.config.js",
     "webpack": "webpack watch"
@@ -28,7 +27,6 @@
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.29.1",
-    "nodemon": "^3.0.3",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
     "typescript-eslint": "^7.0.2",

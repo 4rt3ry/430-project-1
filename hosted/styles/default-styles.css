@@ -1,0 +1,213 @@
+/*
+121f24 - background
+bb4430 - primary front
+e3d081 - yellow 
+
+*/
+
+html {
+    font-size: large;
+}
+
+body,
+nav,
+.top-bar,
+.top-bar * {
+    background-color: #121f24;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.top-bar .menu li:first-child {
+    border-left: none;
+}
+
+.top-bar .menu li {
+    position: relative;
+    border-left: 2px solid #bb4430;
+}
+
+.top-bar .menu li * {
+    position: relative;
+    border-left: 2px solid #bb4430;
+    background-color: transparent;
+}
+
+.top-bar .menu li *:hover {
+    color: white !important;
+}
+
+.top-bar .menu li::before {
+    content: ' ';
+
+    position: absolute;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 0%;
+    background-color: #bb4430;
+    z-index: 0;
+}
+
+.top-bar .menu li:hover::before {
+    transition: width 0.5s;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 1em;
+    color: #e3d081;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.orbit-slide {
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -10px 10px 50px black inset;
+    background-image: url("/media/background_1.png");
+}
+
+.orbit-slide {
+    width: 100vw;
+    min-height: 700px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orbit-slide .orbit-slide-contents {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1pt solid white;
+    background-color: #121f24;
+    box-shadow: 0px 0px 50px 5px black;
+}
+
+.orbit-slide .weapon-stats-section:first-child {
+    border: none;
+}
+
+.orbit-slide .weapon-stats-section {
+    color: white;
+    border-left: 1pt solid white;
+    flex-grow: 1;
+    width: fit-content;
+}
+
+.weapon-stats-section .emphasize {
+    color: #e3d081;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.weapon-stats-section .danger {
+    color: #bb4430;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.weapon-stats-section {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.weapon-stats-section,
+.weapon-stats-section * {
+    background-color: #121f24;
+    color: white;
+}
+
+.weapon-stats-section li {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.weapon-stats-section th,
+.weapon-stats-section tr {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.weapon-stats-section table,
+.weapon-stats-section tbody {
+    border: none;
+}
+
+.column * {
+    color: white;
+}
+
+hr {
+    border-top: 0;
+    border-bottom: 1px solid #bb4430;
+    border-bottom: 1px solid #cacaca;
+
+}
+
+#add-comment-section label {
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: normal;
+    font-size: 1rem;
+    color: white;
+}
+
+#add-comment-section input[type="text"] {
+    display: inline-block;
+    width: initial;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1pt solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#add-comment-section input[type="submit"] {
+    display: block;
+    background-color:#121f24;
+    padding: 0.5rem 1rem;
+    margin-left: auto;
+    margin-right: 0;
+    border: none;
+    border-radius: 2rem;
+}
+
+#comment-submission-area {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #bb4430;
+    margin: 0;
+}
+
+.foot-notes {
+    margin: 0;
+    padding: 0;
+}
+
+.foot-notes * {
+    padding: 5px;
+    text-align: center;
+}

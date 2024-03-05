@@ -1,15 +1,14 @@
 const path = require('path');
 const nodeExternals = require('webpack-node-externals');
 
-module.exports = {
+
+const config = {
   mode: 'production',
   optimization: {
-    minimize: false
+    minimize: true
   },
-  entry: './client/test_client.ts',
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, "./hosted")
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.json']
   },
   module: {
     rules: [
@@ -19,9 +18,25 @@ module.exports = {
       }
     ]
   },
-  resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json']
-  },
   target: 'web',
-  devtool: 'inline-source-map',
+  // devtool: 'inline-source-map',
 }
+
+const testClientConfig = Object.assign({}, config, {
+  entry: './client/test_client.ts',
+  output: {
+    filename: 'test-client.bundle.js',
+    path: path.resolve(__dirname, "./hosted")
+  }
+});
+const clientConfig = Object.assign({}, config, {
+  entry: './client/client.ts',
+  output: {
+    filename: 'client.bundle.js',
+    path: path.resolve(__dirname, "./hosted")
+  }
+});
+
+module.exports = [
+  testClientConfig, clientConfig
+]

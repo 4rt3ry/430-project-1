@@ -4,7 +4,10 @@
         "es2021": true
     },
     "parser": "@typescript-eslint/parser",
-    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
@@ -13,7 +16,11 @@
         "indent": [
             "error",
             4
-        ]
+        ],
+        "@typescript-eslint/no-explicit-any": "off"
     },
-    "ignorePatterns": ["*.bundle.js", "bundle.js"]
+    "ignorePatterns": [
+        "*bundle.js",
+        "bundle.js"
+    ]
 }

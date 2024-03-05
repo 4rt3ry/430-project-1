@@ -5,7 +5,8 @@ const readFile = (filepath: string) => fs.readFileSync(`${__dirname}/${filepath}
 
 const gtfoData: { [key: string]: Buffer | string } = {
     '/api/weapons': readFile('../data/weapons.json'),
-    '/api/weapon_stats': readFile('../data/weapon_stats.json'),
+    '/api/main_weapon_stats': readFile('../data/main_weapon_stats.json'),
+    '/api/special_weapon_stats': readFile('../data/special_weapon_stats.json'),
     '/api/categories': readFile('../data/categories.json'),
     '/api/enemies': readFile('../data/enemies.json'),
     '/api/enemy_stats': readFile('../data/enemy_stats.json'),
@@ -23,6 +24,11 @@ const createMessage = (message: string, id: string = ''): string => {
 
     return JSON.stringify(resultJSON);
 }
+
+//
+// All get responses contain a JSON object
+//
+//
 
 const get400 = (request: IncomingMessage, response: ServerResponse) => {
     const message = createMessage('Bad Request', 'badRequest');
@@ -79,4 +85,4 @@ const headGTFOData = (request: IncomingMessage, response: ServerResponse, params
     response.end();
 }
 
-export { get400, get404, get500, head400, head404, head500, getGTFOData, headGTFOData }
+export { get400, get404, get500, head400, head404, head500, getGTFOData, headGTFOData, createMessage }

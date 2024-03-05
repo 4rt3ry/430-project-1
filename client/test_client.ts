@@ -18,7 +18,7 @@ const setupUI = (): void => {
         e.preventDefault();
         console.log(`Requesting ${apiInput.value}`);
         axios.get(`/api/${apiInput.value}`)
-        .then(handleResponse)
+            .then(handleResponse)
 
         return true;
     });

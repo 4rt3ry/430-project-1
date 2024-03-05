@@ -2,9 +2,9 @@
     "id": "enemies",
     "title": "Enemies",
     "description": "",
-    "results": [
-        {
-            "name": "striker",
+    "results": {
+        "Striker": {
+            "name": "Striker",
             "aliases": [
                 "tmp"
             ],
@@ -18,8 +18,8 @@
                 "head": 3
             }
         },
-        {
-            "name": "shooter",
+        "Shooter": {
+            "name": "Shooter",
             "aliases": [
                 "tmp"
             ],
@@ -33,8 +33,8 @@
                 "head": 5
             }
         },
-        {
-            "name": "giant",
+        "Giant": {
+            "name": "Giant",
             "aliases": [
                 "tmp"
             ],
@@ -49,8 +49,8 @@
                 "head": 1.5
             }
         },
-        {
-            "name": "giant shooter",
+        "Giant Shooter": {
+            "name": "Giant shooter",
             "aliases": [
                 "tmp"
             ],
@@ -64,8 +64,8 @@
                 "head": 2
             }
         },
-        {
-            "name": "hybrid",
+        "Hybrid": {
+            "name": "Hybrid",
             "aliases": [
                 "tmp"
             ],
@@ -80,8 +80,8 @@
                 "head": 2
             }
         },
-        {
-            "name": "scout",
+        "Scout": {
+            "name": "Scout",
             "aliases": [
                 "tmp"
             ],
@@ -95,8 +95,8 @@
                 "head": 3
             }
         },
-        {
-            "name": "charger",
+        "Charger": {
+            "name": "Charger",
             "aliases": [
                 "tmp"
             ],
@@ -111,8 +111,8 @@
                 "head": 0
             }
         },
-        {
-            "name": "giant charger",
+        "Giant Charger": {
+            "name": "Giant Charger",
             "aliases": [
                 "tmp"
             ],
@@ -127,8 +127,8 @@
                 "head": 0
             }
         },
-        {
-            "name": "charger scout",
+        "Charger Scout": {
+            "name": "Charger Scout",
             "aliases": [
                 "tmp"
             ],
@@ -143,8 +143,8 @@
                 "head": 0
             }
         },
-        {
-            "name": "shadow",
+        "Shadow": {
+            "name": "Shadow",
             "aliases": [
                 "tmp"
             ],
@@ -158,8 +158,8 @@
                 "head": 3
             }
         },
-        {
-            "name": "giant shadow",
+        "Giant Shadow": {
+            "name": "Giant Shadow",
             "aliases": [
                 "tmp"
             ],
@@ -174,8 +174,8 @@
                 "head": 1.5
             }
         },
-        {
-            "name": "shadow scout",
+        "Shadow Scout": {
+            "name": "Shadow Scout",
             "aliases": [
                 "tmp"
             ],
@@ -189,8 +189,8 @@
                 "head": 3
             }
         },
-        {
-            "name": "flyer",
+        "Flyer": {
+            "name": "Flyer",
             "aliases": [
                 "tmp"
             ],
@@ -204,8 +204,8 @@
                 "head": 3
             }
         },
-        {
-            "name": "baby striker",
+        "Baby Striker": {
+            "name": "Baby Striker",
             "aliases": [
                 "tmp"
             ],
@@ -219,8 +219,8 @@
                 "head": 2
             }
         },
-        {
-            "name": "giant flyer",
+        "Giant Flyer": {
+            "name": "Giant Flyer",
             "aliases": [
                 "tmp"
             ],
@@ -234,8 +234,8 @@
                 "head": 3
             }
         },
-        {
-            "name": "snatcher",
+        "Snatcher": {
+            "name": "Snatcher",
             "aliases": [
                 "tmp"
             ],
@@ -249,8 +249,8 @@
                 "head": 0
             }
         },
-        {
-            "name": "mother",
+        "Mother": {
+            "name": "Mother",
             "aliases": [
                 "tmp"
             ],
@@ -261,8 +261,8 @@
                 "tumor": 5
             }
         },
-        {
-            "name": "giant mother",
+        "Giant Mother": {
+            "name": "Giant Mother",
             "aliases": [
                 "grandmother",
                 "big mama"
@@ -274,8 +274,8 @@
                 "tumor": 5
             }
         },
-        {
-            "name": "titan",
+        "Titan": {
+            "name": "Titan",
             "aliases": [
                 "father",
                 "hydra"
@@ -290,12 +290,12 @@
                 "tumor": 3
             }
         },
-        {
-            "name": "immortal",
+        "Immortal": {
+            "name": "Immortal",
             "aliases": [
                 "tmp"
             ],
-            "health": "infinity",
+            "health": "Infinity",
             "stagger_health": 400,
             "damage": {
                 "punch": 32,
@@ -303,6 +303,6 @@
             },
             "multiplier": {}
         }
-    ],
+    },
     "url": "/api/enemy_stats"
 }

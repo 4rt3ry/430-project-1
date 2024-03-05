@@ -2,115 +2,238 @@
     "id": "weapons",
     "title": "Weapons",
     "description": "",
-    "results": [
-        {
+    "results": {
+        "Pistol": {
             "full_name": "Shelling S49 Pistol",
             "name": "Pistol",
             "type": "main",
-            "url": "/api/weapons/pistol"
+            "url": "/api/weapons/pistol",
+            "image": "/media/main_weapons/Pistol.png"
         },
-        {
+        "Burst Pistol": {
             "full_name": "Shelling Nano Burst Pistol",
             "name": "Burst Pistol",
             "type": "main",
-            "url": "/api/weapons/burst_pistol"
+            "url": "/api/weapons/burst_pistol",
+            "image": "/media/main_weapons/Burst_Pistol.png"
         },
-        {
+        "HEL Revolver": {
             "full_name": "Bataldo 3RB HEL Revolver",
             "name": "HEL Revolver",
             "type": "main",
+            "image": "/media/main_weapons/HEL_Revolver.png",
             "url": "/api/weapons/hel_revolver"
         },
-        {
+        "Machine Pistol": {
             "full_name": "Raptus Treffen 2 Machine Pistol",
             "name": "Machine Pistol",
             "type": "main",
+            "image": "/media/main_weapons/Machine_Pistol.png",
             "url": "/api/weapons/machine_pistol"
         },
-        {
+        "HEL Autopistol": {
             "full_name": "Raptus Steigro HEL Autopistol",
             "name": "HEL Autopistol",
             "type": "main",
+            "image": "/media/main_weapons/HEL_Autopistol.png",
             "url": "/api/weapons/hel_autopistol"
         },
-        {
+        "Bullpup Rifle": {
             "full_name": "Accrat Golok DA Bullpup Rifle",
             "name": "Bullpup Rifle",
             "type": "main",
+            "image": "/media/main_weapons/Bullpup_Rifle.png",
             "url": "/api/weapons/bullpup_rifle"
         },
-        {
+        "SMG": {
             "full_name": "Van Auken LTC5 SMG",
             "name": "SMG",
             "type": "main",
+            "image": "/media/main_weapons/SMG.png",
             "url": "/api/weapons/smg"
         },
-        {
+        "PDW": {
             "full_name": "Accrat STB PDW",
             "name": "PDW",
             "type": "main",
+            "image": "",
             "url": "/api/weapons/pdw"
         },
-        {
+        "Heavy SMG": {
             "full_name": "Accrat ND6 Heavy SMG",
             "name": "Heavy SMG",
             "type": "main",
+            "image": "/media/main_weapons/Heavy_SMG.png",
             "url": "/api/weapons/heavy_smg"
         },
-        {
+        "Carbine": {
             "full_name": "Van Auken CAB F4 Carbine",
             "name": "Carbine",
             "type": "main",
+            "image": "",
             "url": "/api/weapons/carbine"
         },
-        {
+        "DMR": {
             "full_name": "TR22 Hanaway DMR",
             "name": "DMR",
             "type": "main",
+            "image": "/media/main_weapons/DMR.png",
             "url": "/api/weapons/dmr"
         },
-        {
+        "Double Tap Rifle": {
             "full_name": "Hanaway PSB Double Tap Rifle",
             "name": "Double Tap Rifle",
             "type": "main",
+            "image": "/media/main_weapons/Double_Tap_Rifle.png",
             "url": "/api/weapons/double_tap_rifle"
         },
-        {
+        "Assault Rifle": {
             "full_name": "Malatack LX Assault Rifle",
             "name": "Assault Rifle",
             "type": "main",
+            "image": "/media/main_weapons/Assault_Rifle.png",
             "url": "/api/weapons/assault_rifle"
         },
-        {
-            "full_name": "MAlatack CH 4 Burst Rifle",
+        "Burst Rifle": {
+            "full_name": "Malatack CH 4 Burst Rifle",
             "name": "Burst Rifle",
             "type": "main",
+            "image": "/media/main_weapons/Burst_Rifle.png",
             "url": "/api/weapons/burst_rifle"
         },
-        {
+        "Rifle": {
             "full_name": "Drekker Pres MOD 556 Rifle",
             "name": "Rifle",
             "type": "main",
+            "image": "/media/main_weapons/Rifle.png",
             "url": "/api/weapons/rifle"
         },
-        {
+        "Sawed-off Shotgun": {
             "full_name": "Buckland SBS III Sawed-off Shotgun",
             "name": "Sawed-off Shotgun",
             "type": "main",
+            "image": "/media/main_weapons/Sawed-off_Shotgun.png",
             "url": "/api/weapons/sawed_off_shotgun"
         },
-        {
+        "HEL Shotgun": {
             "full_name": "Bataldo J 300 HEL Shotgun",
             "name": "HEL Shotgun",
             "type": "main",
+            "image": "/media/main_weapons/HEL_Shotgun.png",
             "url": "/api/weapons/hel_shotgun"
         },
-        {
+        "Slug Shotgun": {
             "full_name": "Bataldo Custom K330 Slug Shotgun",
             "name": "Slug Shotgun",
             "type": "main",
+            "image": "/media/main_weapons/Slug_Shotgun.png",
             "url": "/api/weapons/slug_shotgun"
+        },
+        "Heavy Assault Rifle": {
+            "full_name": "Malatack HXC Heavy Assault Rifle",
+            "name": "Heavy Assault Rifle",
+            "image": "/media/special_weapons/Heavy_Assault_Rifle.png",
+            "type": "special",
+            "url": ""
+        },
+        "Short Rifle": {
+            "full_name": "Drekker CLR Short Rifle",
+            "name": "Short Rifle",
+            "image": "/media/special_weapons/Short_Rifle.png",
+            "type": "special",
+            "url": ""
+        },
+        "Shotgun": {
+            "full_name": "Buckland S870 Shotgun",
+            "name": "Shotgun",
+            "image": "/media/special_weapons/Shotgun.png",
+            "type": "special",
+            "url": ""
+        },
+        "Combat Shotgun": {
+            "full_name": "Buckland AF6 Combat Shotgun",
+            "name": "Combat Shotgun",
+            "image": "/media/special_weapons/Combat_Shotgun.png",
+            "type": "special",
+            "url": ""
+        },
+        "Scattergun": {
+            "full_name": "Drekker INEX Drei Scattergun",
+            "name": "Scattergun",
+            "image": "/media/special_weapons/Scattergun.png",
+            "type": "special",
+            "url": ""
+        },
+        "Choke Mod Shotgun": {
+            "full_name": "Buckland XDIST2 Choke Mod Shotgun",
+            "name": "Choke Mod Shotgun",
+            "image": "/media/special_weapons/Choke_Mod_Shotgun.png",
+            "type": "special",
+            "url": ""
+        },
+        "Revolver": {
+            "full_name": "Mastaba R66 Revolver",
+            "name": "Revolver",
+            "image": "/media/special_weapons/Revolver.png",
+            "type": "special",
+            "url": ""
+        },
+        "Machine Gun V": {
+            "full_name": "Techman Arbalist V Machine Gun",
+            "name": "Machine Gun V",
+            "image": "/media/special_weapons/Machine_Gun_V.png",
+            "type": "special",
+            "url": ""
+        },
+        "Machine Gun XII": {
+            "full_name": "Techman Veruta XII Machine Gun",
+            "name": "Machine Gun XII",
+            "image": "/media/special_weapons/Machine_Gun_XII.png",
+            "type": "special",
+            "url": ""
+        },
+        "Burst Cannon": {
+            "full_name": "Techman Klust 6 Burst Cannon",
+            "name": "Burst Cannon",
+            "image": "/media/special_weapons/Burst_Cannon.png",
+            "type": "special",
+            "url": ""
+        },
+        "Hel Gun": {
+            "full_name": "Omneco EXP1 HEL Gun",
+            "name": "Hel Gun",
+            "image": "/media/special_weapons/HEL_Rifle.png",
+            "type": "special",
+            "url": ""
+        },
+        "High Cal Pistol": {
+            "full_name": "Shelling Arid 5 High Caliber Pistol",
+            "name": "High Cal Pistol",
+            "image": "/media/special_weapons/High_Caliber_Pistol.png",
+            "type": "special",
+            "url": ""
+        },
+        "Precision Rifle": {
+            "full_name": "Drekker Del P1 Precision Rifle",
+            "name": "Precision Rifle",
+            "image": "/media/special_weapons/Precision_Rifle.png",
+            "type": "special",
+            "url": ""
+        },
+        "Sniper": {
+            "full_name": "Koning PR 11 Sniper",
+            "name": "Sniper",
+            "image": "/media/special_weapons/Sniper.png",
+            "type": "special",
+            "url": ""
+        },
+        "HEL Rifle": {
+            "full_name": "Omneco LRG HEL Rifle",
+            "name": "HEL Rifle",
+            "image": "/media/special_weapons/Hel_Rifle.png",
+            "type": "special",
+            "url": ""
         }
-    ],
+    },
     "url": "/api/weapons"
 }

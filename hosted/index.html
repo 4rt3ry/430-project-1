@@ -1,258 +1,166 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-  </head>
-  <body>
 
-    <!-- Start Top Bar -->
-    <div class="top-bar">
-        <!-- <div class="top-bar-left">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GTFO Weapon Assistant</title>
+  <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  <link rel="stylesheet" href="/styles/default-styles.css">
+  <script src="client.bundle.js" type="module"></script>
+</head>
+
+<body>
+
+  <!-- Start Top Bar -->
+  <div class="top-bar">
+    <!-- <div class="top-bar-left">
             <input type="text" placeholder="search">
         </div> -->
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li class="menu-text">Home</li>
-          <li><a href="#">Main Weapons</a></li>
-          <li><a href="#">Special Weapons</a></li>
-          <li><a href="#">Strikers</a></li>
-        </ul>
-      </div>
-    </div>
-    <!-- End Top Bar -->
-
-
-    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-      <ul class="orbit-container">
-        <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
-        <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
-        <li class="orbit-slide is-active">
-          <img src="https://placehold.it/2000x750">
-        </li>
-        <li class="orbit-slide">
-          <img src="https://placehold.it/2000x750">
-        </li>
-        <li class="orbit-slide">
-          <img src="https://placehold.it/2000x750">
-        </li>
-        <li class="orbit-slide">
-          <img src="https://placehold.it/2000x750">
-        </li>
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text">Home</li>
+        <li><a href="#main-weapons-header">Main Weapons</a></li>
+        <li><a href="#special-weapons-header">Special Weapons</a></li>
       </ul>
     </div>
-
-    <div class="row column text-center">
-      <h2>Weapons</h2>
-      <hr>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="#comments">Comments</a></li>
+      </ul>
     </div>
+  </div>
+  <!-- End Top Bar -->
 
-    <div class="row small-up-2 large-up-4">
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button expanded">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button expanded">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button expanded">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button expanded">Buy</a>
-      </div>
-    </div>
 
+  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <ul class="orbit-container">
+      <button id="previous-stat" class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous
+          Slide</span>&#9664;</button>
+      <button id="next-stat" class="orbit-next" aria-label="next"><span class="show-for-sr">Next
+          Slide</span>&#9654;</button>
+      <li class="orbit-slide is-active" id="weapon-stats">
+        <div class="orbit-slide-contents">
+          <div class="weapon-stats-section">
+            <img src="https://placehold.it/300x300">
+            <h5>Shelling Pistol</h5>
+            <p>Pistol</p>
+          </div>
+          <div class="weapon-stats-section">
+            <table class="">
+              <tbody>
+                <tr>
+                  <th>Damage (per shot)</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Damage (per mag)</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Max Ammo</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Magazine Size</th>
+                  <td>5</td>
+                </tr>
+                <tr>
+                  <th>Effective Range</th>
+                  <td>5</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="emphasize">High Precision Multiplier</p>
+            <p class="emphasize">High Stagger Multiplier</p>
+          </div>
+
+          <div class="weapon-stats-section">
+            <h5>Headshots are effective against: </h5>
+            <ul>
+              <li>Strikers</li>
+              <li>Shooters</li>
+            </ul>
+            <h5>Weapon is effective against: </h5>
+          </div>
+          <div class="weapon-description">
+
+          </div>
+        </div>
+        <!-- <img src="/media/background_1.png"> -->
+      </li>
+    </ul>
+  </div>
+
+  <div class="row column text-center" id="main-weapons-header">
+    <h2>Main Weapons</h2>
     <hr>
+  </div>
 
-    <div class="row column">
-      <div class="callout primary">
-        <h3>Really big special this week on items.</h3>
-      </div>
+  <div class="row small-up-2 medium-up-3 large-up-6" id="main-weapons-table">
+    <div class="column">
+      <img class="thumbnail" src="https://placehold.it/300x400">
+      <h5>Nulla At Nulla Justo, Eget</h5>
+      <p>$400</p>
+      <a href="#" class="button small expanded hollow">Buy</a>
     </div>
+    <div class="column">
+      <img class="thumbnail" src="https://placehold.it/300x400">
+      <h5>Nulla At Nulla Justo, Eget</h5>
+      <p>$400</p>
+      <a href="#" class="button small expanded hollow">Buy</a>
+    </div>
+  </div>
 
+  <div class="row column text-center" id="special-weapons-header">
+    <h2>Special Weapons</h2>
     <hr>
+  </div>
 
-    <div class="row column text-center">
-      <h2>Some Other Neat Products</h2>
-      <hr>
+  <div class="row small-up-2 medium-up-3 large-up-6" id="special-weapons-table">
+    <div class="column">
+      <img class="thumbnail" src="https://placehold.it/300x400">
+      <h5>Nulla At Nulla Justo, Eget</h5>
+      <p>$400</p>
+      <a href="#" class="button small expanded hollow">Buy</a>
     </div>
-
-    <div class="row small-up-2 medium-up-3 large-up-6">
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
-      </div>
-      <div class="column">
-        <img class="thumbnail" src="https://placehold.it/300x400">
-        <h5>Nulla At Nulla Justo, Eget</h5>
-        <p>$400</p>
-        <a href="#" class="button small expanded hollow">Buy</a>
-      </div>
+    <div class="column">
+      <img class="thumbnail" src="https://placehold.it/300x400">
+      <h5>Nulla At Nulla Justo, Eget</h5>
+      <p>$400</p>
+      <a href="#" class="button small expanded hollow">Buy</a>
     </div>
+  </div>
 
-    <hr>
-    <div class="row">
-      <div class="medium-4 columns">
-        <h4>Top Products</h4>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-      </div>
-      <div class="medium-4 columns">
-        <h4>Top Products</h4>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-      </div>
-      <div class="medium-4 columns">
-        <h4>Top Products</h4>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-        <div class="media-object">
-          <div class="media-object-section">
-            <img class="thumbnail" src="https://placehold.it/100x100">
-          </div>
-          <div class="media-object-section">
-            <h5>Nunc Eu Ullamcorper Orci</h5>
-            <p>Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="callout large secondary">
+  <div class="footer callout large">
+    <div id="comments">
       <div class="row">
-        <div class="large-4 columns">
-          <h5>Vivamus Hendrerit Arcu Sed Erat Molestie</h5>
-          <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit.</p>
-        </div>
-        <div class="large-3 large-offset-2 columns">
-          <ul class="menu vertical">
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
-          </ul>
-        </div>
-        <div class="large-3 columns">
-          <ul class="menu vertical">
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
-            <li><a href="#">Three</a></li>
-            <li><a href="#">Four</a></li>
-          </ul>
+        <div class="comment">
+          <h5>Author Name</h5>
+          <p>Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit
+            amet
+            arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed
+            molestie
+            augue sit.</p>
+          <p>123-124-124</p>
         </div>
       </div>
     </div>
+    <hr>
+    <div id="add-comment-section" class="row">
+      <form id="comment-form">
+        <textarea id="comment-text" placeholder="Add a new comment"></textarea>
+        <div id="comment-submission-area">
+          <label for="add-comment-author">Author</label>
+          <input type="text" id="add-comment-author">
+          <input type="submit" id="comment-submit" value="Comment">
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="foot-notes">
+    <p>Arthur Powers - CC BY - 4 March 2024</p>
+  </div>
+</body>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
 </html>

@@ -5,7 +5,7 @@ export interface ResponseHandlers {
 }
 
 export interface ResponseHandler {
-    [key: string]: Function | undefined;
+    [key: string]: Function | undefined; // eslint-disable-line
 }
 
 export interface ResponseHanderParams {
